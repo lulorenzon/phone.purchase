@@ -7,70 +7,73 @@ body {
 
 header-box {
   background-color: white;
-   height: 10px;
+  height: 10px;
   padding: 350px;
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: 50px;
   border-radius: 8px;
-
 }
 
-  .image-phone {
-    width: 430px;
-    height: 320px;
-    position: relative;
-    bottom:300px;
-    right: 300px;
-  }
-
-
-  .text-value{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    bottom:600px;
-    left: 100px;
-    font-size: 12px;
-  }
-
-  .text-value  h1{
-    background-color: black;
-    font-family: ;
-    color: white;
-    padding: 5px;
-    border-radius: 30px;
-    font-size: 12px;
-    right: 130px;
-    position: relative;
-
-
+.image-phone {
+  width: 430px;
+  height: 320px;
+  position: relative;
+  bottom: 300px;
+  right: 300px;
 }
 
+.text-value {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  bottom: 600px;
+  left: 100px;
+  font-size: 12px;
+}
+
+.text-value h1 {
+  font-family: 'Poppins';
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 70px;
+  font-size: 13px;
+  width: 90px;
+  right: 130px;
+  position: relative;
+  text-align: center;
+}
 
 .text-value span {
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 36px;
-text-align: left;
-
-
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: left;
 }
 
+/* .text-value s{
 
-.button{
-  background-color:#4788E9;
+  position: relative;
+  top: 100px;
+  right: 100px;
+  font-size: 30px;
+
+
+} */
+
+.button {
+  background-color: #4788e9;
   width: 300px;
   padding: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  top:300px;
+
   left: 100px;
   position: relative;
   color: white;
@@ -80,7 +83,23 @@ text-align: left;
   border-radius: 10px;
 
   &:hover {
-    outline: 3px solid #4D8BD5;
+    outline: 3px solid #4d8bd5;
     transition: all 0.2s ease;
   }
+}
+
+.numbers {
+  position: relative;
+  top: 100px;
+  right: 100px;
+  font-size: 30px;
+}
+.numbers h5 {
+  position: relative;
+  bottom: 60px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
 }
