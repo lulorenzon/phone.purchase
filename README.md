@@ -1,4 +1,6 @@
-Nesse primeiro layout está a versão para celulares e tablets .
+Desenvolvendo o design da plataforma figma , para desenvolvimento , melhorias e práticas .
+
+modelo de design:
 
 <img width="758" alt="Captura de Tela 2023-05-18 às 15 19 21" src="https://github.com/lulorenzon/phone.purchase/assets/103546259/a3cfdf4f-bfa5-4408-8b91-65657ff33049">
 
