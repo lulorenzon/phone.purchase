@@ -7,37 +7,68 @@ body {
 
 header-box {
   background-color: white;
-  height: 10px;
-  padding: 350px;
+  height: 100%;
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: 50px;
   border-radius: 8px;
+  padding: 100px;
+}
+
+@media screen and (min-width: 940px) {
+  header-box {
+    height: 10px;
+    padding: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    border-radius: 8px;
+  }
 }
 
 .image-phone {
-  width: 430px;
-  height: 320px;
+  width: 130px;
+  height: 120px;
   position: relative;
-  bottom: 300px;
-  right: 300px;
+}
+
+@media screen and (min-width: 940px) {
+  .image-phone {
+    width: 230px;
+    height: 320px;
+    position: relative;
+    bottom: 200px;
+    right: 200px;
+  }
 }
 
 .text-value {
   display: flex;
   align-items: center;
   flex-direction: column;
-  position: relative;
-  bottom: 600px;
-  left: 100px;
   font-size: 12px;
 }
 
+@media screen and (min-width: 940px) {
+  .text-value {
+    position: relative;
+    left: 100px;
+    width: 430px;
+    height: 320px;
+    position: relative;
+    bottom: 300px;
+    right: 300px;
+  }
+}
+
 .text-value h1 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   background-color: black;
   color: white;
+  bottom: 60px;
   padding: 5px;
   border-radius: 70px;
   font-size: 13px;
@@ -47,13 +78,35 @@ header-box {
   text-align: center;
 }
 
+@media screen and (min-width: 940px) {
+  .text-value h1 {
+    bottom: 600px;
+    padding: 5px;
+    border-radius: 70px;
+    font-size: 13px;
+    width: 90px;
+    right: 130px;
+    position: relative;
+    text-align: center;
+    bottom: 113px;
+  }
+}
 .text-value span {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
-  text-align: left;
+}
+
+@media screen and (min-width: 940px) {
+  .text-value span {
+    font-size: 24px;
+    line-height: 32px;
+    position: relative;
+    bottom: 100px;
+  
+  }
 }
 
 /* .text-value s{
@@ -92,7 +145,7 @@ header-box {
   position: relative;
   top: 100px;
   right: 100px;
-  font-size: 30px;
+  font-size: 10px;
 }
 .numbers h5 {
   position: relative;
@@ -100,6 +153,30 @@ header-box {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 72px;
+  font-size: 14px;
+  line-height: 16px;
 }
+
+@media screen and (min-width: 940px) {
+  .numbers {
+    font-size: 28px;
+    line-height: 72px;
+  }
+}
+
+/* @media screen and (min-width: 940px) {
+  .numbers h5 {
+    font-size: 24px;
+    line-height: 16px;
+  }
+}
+@media screen and (min-width: 940px) {
+  -webkit-padding-start: 11px;
+}
+
+@media screen and (min-width: 1380px) {
+  margin: 2px;
+  padding: 12px;
+  -webkit-padding-start: 17px;
+  margin-bottom: 8px;
+} */
