@@ -28,6 +28,13 @@ header-box {
     border-radius: 8px;
   }
 }
+.container{
+  display:flex;
+  flex-direction: column;
+}
+.h1 .write-text{
+  font-size: 14px;
+}
 
 .image-phone {
   width: 130px;
@@ -105,7 +112,6 @@ header-box {
     line-height: 32px;
     position: relative;
     bottom: 100px;
-  
   }
 }
 
@@ -121,18 +127,21 @@ header-box {
 
 .button {
   background-color: #4788e9;
-  width: 300px;
+  width: 400px;
   padding: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
-
+  height: 56px;
+  border: unset;
   left: 100px;
   position: relative;
   color: white;
   cursor: pointer;
   overflow: hidden;
-
+  text-align: center;
+  font-size: 20px;
+  border: unset;
   border-radius: 10px;
 
   &:hover {
@@ -143,23 +152,23 @@ header-box {
 
 .numbers {
   position: relative;
-  top: 100px;
+  margin: -5rem;
   right: 100px;
   font-size: 10px;
 }
 .numbers h5 {
   position: relative;
-  bottom: 60px;
+  bottom: 65px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 40px;
   line-height: 16px;
 }
 
 @media screen and (min-width: 940px) {
   .numbers {
-    font-size: 28px;
+    font-size: 14px;
     line-height: 72px;
   }
 }
