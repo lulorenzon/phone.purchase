@@ -2,12 +2,12 @@ const buttonId = document.querySelector("button")
 
 
 buttonId.addEventListener("click", function(){
-    console.log("Fui clicado")
+    console.log("Fui clicado", buttonId)
 })
-// function dizTeste(){
-//     console.log("Fui clicado")
+function dizTeste(){
+    console.log("Fui clicado")
 
-// }
+}
 
 function updateCopyright() {
     const currentYear = new Date().getFullYear();
@@ -17,5 +17,10 @@ function updateCopyright() {
   
   updateCopyright();
   
-  setInterval(updateCopyright, 1000 * 60 * 60);
-  
+  async function conectarComApi() {
+    const conectaApi = await fetch("");
+    const conectaApiConvertido = await conectaApi.json()
+    console.log(conectaApiConvertido);
+    }
+    
+    conectarComApi();
