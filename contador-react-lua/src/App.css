@@ -1,0 +1,224 @@
+body {
+  background-color: #f1f7fe;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.peca {
+  color: var(--main-branco);
+  text-transform: uppercase;
+  font-size: 2.5em;
+  position: relative;
+  bottom: 69px;
+  left: 71px;
+}
+
+.quantity-number {
+  font-size: 10px;
+  left: 220px;
+  position: relative;
+  bottom: -5px;
+}
+
+.controle {
+  background: var(--main-preto);
+  border-radius: 25px;
+  float: right;
+  display: inline-flex;
+  padding: unset;
+  align-items: center;
+  align-self: flex-end;
+}
+
+header-box {
+  background-color: white;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+  border-radius: 8px;
+  padding: 100px;
+}
+
+@media screen and (min-width: 940px) {
+  header-box {
+    height: 10px;
+    padding: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    border-radius: 8px;
+    width: 250px;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.h1 .write-text {
+  font-size: 14px;
+}
+.write-text {
+  font-size: 14px;
+  position: relative;
+  bottom: 77px;
+  color: #707070;
+}
+
+.image-phone {
+  width: 130px;
+  height: 120px;
+  position: relative;
+}
+
+@media screen and (min-width: 940px) {
+  .image-phone {
+    width: 230px;
+    height: 320px;
+    position: relative;
+    bottom: 200px;
+    right: 200px;
+  }
+}
+
+.text-value {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 940px) {
+  .text-value {
+    position: relative;
+    left: 100px;
+    width: 430px;
+    height: 320px;
+    position: relative;
+    bottom: 300px;
+    right: 300px;
+  }
+}
+
+.text-value h1 {
+  font-family: "Poppins";
+  background-color: black;
+  color: white;
+  bottom: 60px;
+  padding: 5px;
+  border-radius: 70px;
+  font-size: 13px;
+  width: 90px;
+  right: 130px;
+  position: relative;
+  text-align: center;
+}
+
+@media screen and (min-width: 940px) {
+  .text-value h1 {
+    bottom: 600px;
+    padding: 5px;
+    border-radius: 70px;
+    font-size: 13px;
+    width: 90px;
+    right: 130px;
+    position: relative;
+    text-align: center;
+    bottom: 113px;
+  }
+}
+.text-value span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+@media screen and (min-width: 940px) {
+  .text-value span {
+    font-size: 24px;
+    line-height: 32px;
+    position: relative;
+    bottom: 100px;
+  }
+}
+
+/* .text-value s{
+
+  position: relative;
+  top: 100px;
+  right: 100px;
+  font-size: 30px;
+
+
+} */
+
+.button {
+  background-color: #4788e9;
+  width: 362px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 50px;
+  position: relative;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  border: unset;
+  border-radius: 10px;
+
+  &:hover {
+    outline: 3px solid #4d8bd5;
+    transition: all 0.2s ease;
+  }
+}
+
+input.controle-contador {
+  text-align: center;
+}
+
+.numbers {
+  position: relative;
+  margin: -5rem;
+  right: 119px;
+  font-size: 10px;
+  bottom: 34px;
+}
+.numbers h5 {
+  position: relative;
+  bottom: 65px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 16px;
+}
+
+@media screen and (min-width: 940px) {
+  .numbers {
+    font-size: 14px;
+    line-height: 72px;
+  }
+}
+
+/* @media screen and (min-width: 940px) {
+  .numbers h5 {
+    font-size: 24px;
+    line-height: 16px;
+  }
+}
+@media screen and (min-width: 940px) {
+  -webkit-padding-start: 11px;
+}
+
+@media screen and (min-width: 1380px) {
+  margin: 2px;
+  padding: 12px;
+  -webkit-padding-start: 17px;
+  margin-bottom: 8px;
+} */
